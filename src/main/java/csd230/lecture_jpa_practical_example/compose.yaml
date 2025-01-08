@@ -12,4 +12,4 @@ services:
     ports:
       - '3307:3306'
     volumes: # stores data in local folder: c:\volumes
-      - c:\volumes\mysql:/var/lib/mysql
+      - "/Users/jackwuerdemann/volumes/mysql:/var/lib/mysql:rw"
